@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    @font-face {
+      font-family: fonte1;
+      src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+    *{
+      font-family: fonte1;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #F5D04E;
+    }
+
+    .container{
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 2px 2px inset, 10px 10px;
+      width: 380px;
+      height: 505px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+    }
+    .container #image-principal img{
+      border-radius: 10px;
+      position: relative;
+      
+    }
+
+    .button-learning button{
+      text-align: center;
+      width: 80px;
+      height: 27px;
+      margin-top: 7px;
+      border: none;
+      border-radius: 5px;
+      background-color: #F5D04E;
+      font-weight: 900;
+      position: relative;
+      right: 125px;
+
+    }
+    .published{
+      margin-left: 25px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    h1{
+      font-size: 25px;
+      font-weight:900;
+      margin: 15px;
+      margin-left: 24px;
+    }
+
+    .these{
+      margin-left: 25px;
+      line-height: 22px;
+      color: #8d8c8c;
+      font-weight: 500;
+    }
+
+    .user img{
+      width: 30px;
+      position: relative;
+      right: 110px;
+      top: 10px;
+    }
+
+    .greg{
+      position: relative;
+      font-weight: 900;
+      font-size: 14px;
+      left: -70px;
+      top: -20px;
+    }
+  </style>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+      <div id="image-principal">
+        <img src="assets/images/illustration-article.svg" alt="">
+      </div>
+      <div class="button-learning">
+        <button>Learning</button>
+      </div>
+      <div class="descricao">
+        <p class="published">Published 21 Dec 2023</p>
+        <h1>HTML & CSS foundations</h1>
+        <p class="these">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+        <div class="user">
+          <img src="assets/images/image-avatar.webp" alt="">
+          <p class="greg">Greg Hooper</p>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- Learning
+
+  Published 21 Dec 2023
+
+  HTML & CSS foundations
+
+  These languages are the backbone of every website, defining structure, content, and presentation.
+
+  Greg Hooper
+   -->
+
+</body>
+</html>
